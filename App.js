@@ -1,20 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import MovingBetweenScreens from "./components/MovingBetweenScreens";
+import PassingParametersToRoutes from "./components/PassingParametersToRoutes";
+import ReactNavigation from "./components/ReactNavigation";
+import TabNavigation from "./components/tabNav/TabNavigation";
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+function App() {
+    return (
+        // <ReactNavigation />
+        // <MovingBetweenScreens />
+        // <PassingParametersToRoutes />
+        <TabNavigation />
+    );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
