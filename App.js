@@ -2,6 +2,7 @@ import DrawerNav from "./components/drawerNav/DrawerNav";
 import MovingBetweenScreens from "./components/MovingBetweenScreens";
 import PassingParametersToRoutes from "./components/PassingParametersToRoutes";
 import ReactNavigation from "./components/ReactNavigation";
+import SafeArea from "./components/safeArea/SafeArea";
 import TabNavigation from "./components/tabNav/TabNavigation";
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
         // <MovingBetweenScreens />
         // <PassingParametersToRoutes />
         // <TabNavigation />
-        <DrawerNav />
+        // <DrawerNav />
+        <SafeArea />
     );
 }
 
