@@ -1,3 +1,4 @@
+import DrawerNav from "./components/drawerNav/DrawerNav";
 import MovingBetweenScreens from "./components/MovingBetweenScreens";
 import PassingParametersToRoutes from "./components/PassingParametersToRoutes";
 import ReactNavigation from "./components/ReactNavigation";
@@ -8,7 +9,8 @@ function App() {
         // <ReactNavigation />
         // <MovingBetweenScreens />
         // <PassingParametersToRoutes />
-        <TabNavigation />
+        // <TabNavigation />
+        <DrawerNav />
     );
 }
 
