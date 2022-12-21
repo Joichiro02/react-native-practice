@@ -7,6 +7,7 @@ import ReactNavigation from "./components/ReactNavigation";
 import SafeArea from "./components/safeArea/SafeArea";
 import ScreenOptionsNestedNavigators from "./components/screenOptionsNestedNavigators/ScreenOptionsNestedNavigators";
 import TabNavigation from "./components/tabNav/TabNavigation";
+import Themes from "./components/themes/Themes";
 
 function App() {
     return (
@@ -18,7 +19,8 @@ function App() {
         // <SafeArea />
         // <Modal />
         // <MultipleDrawers />
-        <ScreenOptionsNestedNavigators />
+        // <ScreenOptionsNestedNavigators />
+        <Themes />
     );
 }
 
