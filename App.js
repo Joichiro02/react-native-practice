@@ -5,6 +5,7 @@ import MultipleDrawers from "./components/multipleDrawers/MultipleDrawers";
 import PassingParametersToRoutes from "./components/PassingParametersToRoutes";
 import ReactNavigation from "./components/ReactNavigation";
 import SafeArea from "./components/safeArea/SafeArea";
+import ScreenOptionsNestedNavigators from "./components/screenOptionsNestedNavigators/ScreenOptionsNestedNavigators";
 import TabNavigation from "./components/tabNav/TabNavigation";
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
         // <DrawerNav />
         // <SafeArea />
         // <Modal />
-        <MultipleDrawers />
+        // <MultipleDrawers />
+        <ScreenOptionsNestedNavigators />
     );
 }
 
