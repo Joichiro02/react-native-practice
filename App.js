@@ -4,6 +4,7 @@ import MovingBetweenScreens from "./components/MovingBetweenScreens";
 import MultipleDrawers from "./components/multipleDrawers/MultipleDrawers";
 import PassingParametersToRoutes from "./components/PassingParametersToRoutes";
 import ReactNavigation from "./components/ReactNavigation";
+import ReduxIntegration from "./components/reduxIntegration/ReduxIntegration";
 import SafeArea from "./components/safeArea/SafeArea";
 import ScreenOptionsNestedNavigators from "./components/screenOptionsNestedNavigators/ScreenOptionsNestedNavigators";
 import TabNavigation from "./components/tabNav/TabNavigation";
@@ -20,7 +21,8 @@ function App() {
         // <Modal />
         // <MultipleDrawers />
         // <ScreenOptionsNestedNavigators />
-        <Themes />
+        // <Themes />
+        <ReduxIntegration />
     );
 }
 
